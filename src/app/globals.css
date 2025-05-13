@@ -1,3 +1,37 @@
+/* Tailwind CSS Base, Components, and Utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Inter Font Family */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter_18pt-Regular.ttf') format('truetype'),
+       url('/fonts/Inter_24pt-Regular.ttf') format('truetype'),
+       url('/fonts/Inter_28pt-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter_18pt-Bold.ttf') format('truetype'),
+       url('/fonts/Inter_24pt-Bold.ttf') format('truetype'),
+       url('/fonts/Inter_28pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter_18pt-Italic.ttf') format('truetype'),
+       url('/fonts/Inter_24pt-Italic.ttf') format('truetype'),
+       url('/fonts/Inter_28pt-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Set Default Font Family */
+body {
+  font-family: 'Inter', sans-serif;
+}
