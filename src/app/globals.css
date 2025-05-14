@@ -3,35 +3,56 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Set Default Font Family */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 /* Font Faces */
 @font-face {
   font-family: 'Inter';
-  src: url('/house-style-detector/fonts/Inter_18pt-Regular.ttf') format('truetype'),
-       url('/house-style-detector/fonts/Inter_24pt-Regular.ttf') format('truetype'),
-       url('/house-style-detector/fonts/Inter_28pt-Regular.ttf') format('truetype');
+  src: url('/house-style-detector/fonts/Inter-Regular.woff') format('woff'),
+       url('/house-style-detector/fonts/Inter-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('/house-style-detector/fonts/Inter_18pt-Bold.ttf') format('truetype'),
-       url('/house-style-detector/fonts/Inter_24pt-Bold.ttf') format('truetype'),
-       url('/house-style-detector/fonts/Inter_28pt-Bold.ttf') format('truetype');
+  src: url('/house-style-detector/fonts/Inter-Bold.woff') format('woff'),
+       url('/house-style-detector/fonts/Inter-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('/house-style-detector/fonts/Inter_18pt-Italic.ttf') format('truetype'),
-       url('/house-style-detector/fonts/Inter_24pt-Italic.ttf') format('truetype'),
-       url('/house-style-detector/fonts/Inter_28pt-Italic.ttf') format('truetype');
+  src: url('/house-style-detector/fonts/Inter-Italic.woff') format('woff'),
+       url('/house-style-detector/fonts/Inter-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
 
-/* Set Default Font Family */
-body {
-  font-family: 'Inter', sans-serif;
+@font-face {
+  font-family: 'Inter';
+  src: url('/house-style-detector/fonts/Inter-Light-BETA.woff') format('woff'),
+       url('/house-style-detector/fonts/Inter-Light-BETA.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/house-style-detector/fonts/Inter-SemiBold.woff') format('woff'),
+       url('/house-style-detector/fonts/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/house-style-detector/fonts/Inter-ExtraBold.woff') format('woff'),
+       url('/house-style-detector/fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
 }
